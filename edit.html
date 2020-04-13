@@ -1,0 +1,56 @@
+
+<html>
+<head>
+<title>sqrGame</title>
+<meta name="description" content="Play sqrGame!  Try to navigate through seemingly simple mazes in this addicting puzzle game.">
+<style>
+body {
+    background-color: #CECECE;
+}
+
+</style>
+</head>
+
+<body>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<center>
+
+<p style="font-size:30px">sqrGame</p>
+
+Grid size:
+<select name="mapsize" id="mapsize">
+	<option value="4">4x6</option>
+	<option value="6" selected>6x9</option>
+	<option value="8">8x12</option>
+	<option value="10">10x15</option>
+	<option value="12">12x18</option>
+	<option value="16">16x24</option>
+	<option value="18">18x27</option>
+	<option value="20">20x30</option>
+	<option value="24">24x36</option>
+	<option value="30">30x45</option>
+	<option value="32">32x48</option>
+	<option value="36">36x54</option>
+	<option value="40">40x60</option>
+	<option value="48">48x72</option>
+	<option value="50">50x75</option>
+</select>
+<br>
+
+<canvas onmousedown="mouseDown(event)" onmouseup="mouseUp(event)" id="board" width="720" height="1080"" style="-webkit-tap-highlight-color:rgba(0,0,0,0); z-index=1"></canvas>
+
+<br><textarea cols="60" rows="24" name="textbox3" id="textbox3" readonly="true"></textarea>
+
+<br><p style="font-size:16px">Use W,A,S,D to move the green box into the white box. Use Z to move orange boxes.</p>
+<br>Code written by Cameron Fyfe<br>
+
+<script src="level.js"></script>
+<script src="sqr-class.js"></script>
+<script src="level-edit.js"></script>
+<script src="keyboard-control.js"></script>
+<script src="touch-control.js"></script>
+<script src="main.js"></script>
+
+</center>
+</body>
+</html>

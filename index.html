@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title>sqrGame</title>
+<meta name="description" content="Play sqrGame!  Try to navigate through seemingly simple mazes in this addicting puzzle game.">
+<style>
+body {
+    background-color: #CECECE;
+}
+</style>
+</head>
+
+<body>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<center>
+
+<p style="font-size:30px">sqrGame</p>
+
+
+
+<canvas onmousedown="mouseDown(event)" onmouseup="mouseUp(event)" id="board" width="720" height="720" style="width:100%; -webkit-tap-highlight-color:rgba(0,0,0,0);"></canvas>
+
+<br><p style="font-size:16px">Use W,A,S,D to move the green box into the white box. Use Z to move orange boxes.</p>
+<br>Code written by Cameron Fyfe<br>
+
+<script src="js/level.js"></script>
+<script src="js/game-board.js"></script>
+<script src="js/sqr-class.js"></script>
+<script src="js/keyboard-control.js"></script>
+<script src="js/touch-control.js"></script>
+<script src="js/main.js"></script>
+
+</center>
+</body>
+</html>
