@@ -14,6 +14,11 @@ python3 -m http.server 8000
 - http://localhost:8000/ — the game
 - http://localhost:8000/edit.html — the level editor
 
+## Deployment
+
+Pushes to `master` deploy to GitHub Pages via `.github/workflows/pages.yml`
+(it can also be run manually from the Actions tab).
+
 ## Files
 
 | File | |
