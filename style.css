@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0 16px;
+	background-color: #cecece;
+	font-family: serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 16px 0;
+}
+
+#board {
+	display: block;
+	margin: 0 auto;
+	width: min(95vw, 70vh);
+	height: auto;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.instructions {
+	font-size: 16px;
+}
+
+#level-code {
+	width: min(95vw, 720px);
+	font-family: monospace;
+	tab-size: 4;
+}
+
+kbd {
+	font-family: monospace;
+	font-weight: bold;
+}
